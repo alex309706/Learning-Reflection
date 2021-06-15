@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C50590D7-5B2F-4678-A1C1-C5C1BA4F2110}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Using reflection", "Using reflection", "{13EF286D-125F-4B4C-A2F9-02B415699312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingReflection", "..\Using Reflection\UsingReflection\UsingReflection.csproj", "{B2BD7B93-2026-4099-A75B-4437C16BCE7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{C50590D7-5B2F-4678-A1C1-C5C1BA4F2110}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C50590D7-5B2F-4678-A1C1-C5C1BA4F2110}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C50590D7-5B2F-4678-A1C1-C5C1BA4F2110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BD7B93-2026-4099-A75B-4437C16BCE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BD7B93-2026-4099-A75B-4437C16BCE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BD7B93-2026-4099-A75B-4437C16BCE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BD7B93-2026-4099-A75B-4437C16BCE7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2BD7B93-2026-4099-A75B-4437C16BCE7C} = {13EF286D-125F-4B4C-A2F9-02B415699312}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D043C965-5F49-4C12-9D86-C49FE7DC1AFD}
