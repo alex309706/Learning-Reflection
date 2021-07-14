@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csproj", "{841EB7FE-A3C2-44B0-B4F2-41E056817F9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Basics\Basics.csproj", "{841EB7FE-A3C2-44B0-B4F2-41E056817F9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C50590D7-5B2F-4678-A1C1-C5C1BA4F2110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{C50590D7-5B2F-4678-A1C1-C5C1BA4F2110}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Using reflection", "Using reflection", "{13EF286D-125F-4B4C-A2F9-02B415699312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingReflection", "..\Using Reflection\UsingReflection\UsingReflection.csproj", "{B2BD7B93-2026-4099-A75B-4437C16BCE7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingReflection", "..\Using Reflection\UsingReflection\UsingReflection.csproj", "{B2BD7B93-2026-4099-A75B-4437C16BCE7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repetition", "Repetition\Repetition.csproj", "{B7819E13-AEBF-4A14-B93D-E29C10A21808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResearchingMethods", "ResearchingMethods\ResearchingMethods.csproj", "{223F9D46-C4D3-45A0-9123-02FFFF701710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +33,22 @@ Global
 		{B2BD7B93-2026-4099-A75B-4437C16BCE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2BD7B93-2026-4099-A75B-4437C16BCE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2BD7B93-2026-4099-A75B-4437C16BCE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7819E13-AEBF-4A14-B93D-E29C10A21808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7819E13-AEBF-4A14-B93D-E29C10A21808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7819E13-AEBF-4A14-B93D-E29C10A21808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7819E13-AEBF-4A14-B93D-E29C10A21808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223F9D46-C4D3-45A0-9123-02FFFF701710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223F9D46-C4D3-45A0-9123-02FFFF701710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223F9D46-C4D3-45A0-9123-02FFFF701710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223F9D46-C4D3-45A0-9123-02FFFF701710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B2BD7B93-2026-4099-A75B-4437C16BCE7C} = {13EF286D-125F-4B4C-A2F9-02B415699312}
+		{B7819E13-AEBF-4A14-B93D-E29C10A21808} = {13EF286D-125F-4B4C-A2F9-02B415699312}
+		{223F9D46-C4D3-45A0-9123-02FFFF701710} = {13EF286D-125F-4B4C-A2F9-02B415699312}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D043C965-5F49-4C12-9D86-C49FE7DC1AFD}
