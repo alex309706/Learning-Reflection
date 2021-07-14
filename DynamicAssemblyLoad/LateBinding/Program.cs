@@ -18,8 +18,13 @@ namespace LateBinding
                 object[] parameters = {1,100,20 };
                 object result = methodInfo.Invoke(obj,parameters);
                 Console.WriteLine(result);
+                object[] asd = new object[] { new string[] { } };
 
-             }
+                methodInfo = type.GetMethod("Main",BindingFlags.DeclaredOnly
+    | BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Static);
+                methodInfo.Invoke(obj, asd);
+
+            }
             catch (Exception)
             {
                 Console.WriteLine("Something bad happend...");
