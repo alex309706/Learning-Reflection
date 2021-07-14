@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Using reflection", "Using r
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingReflection", "..\Using Reflection\UsingReflection\UsingReflection.csproj", "{B2BD7B93-2026-4099-A75B-4437C16BCE7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repetition", "Repetition\Repetition.csproj", "{B7819E13-AEBF-4A14-B93D-E29C10A21808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repetition", "Repetition\Repetition.csproj", "{B7819E13-AEBF-4A14-B93D-E29C10A21808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResearchingMethods", "ResearchingMethods\ResearchingMethods.csproj", "{223F9D46-C4D3-45A0-9123-02FFFF701710}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResearchingMethods", "ResearchingMethods\ResearchingMethods.csproj", "{223F9D46-C4D3-45A0-9123-02FFFF701710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

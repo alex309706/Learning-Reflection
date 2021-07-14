@@ -13,11 +13,12 @@ namespace ResearchingMethods
             printProperties(userType);
             printFields(userType);
             printImplementedInterfaces(userType);
+            Console.WriteLine(userType.Assembly.FullName);
 
-          
 
-           
-           
+
+
+
         }
         static void printMethodInfo(Type type)
         {

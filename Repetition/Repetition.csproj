@@ -1,8 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ResearchingMethods">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\ResearchingMethods\v4.0_1.0.0.0__5bd9eecebb7a8769\ResearchingMethods.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
